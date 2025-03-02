@@ -68,3 +68,247 @@ ul {
 	vertical-align: top;
 }
 
+html, body {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal overflow if needed */
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important; /* Dark background */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8 !important; /* Light blue hover effect */
+}
+
+/* Hero Image Section */
+.full-width-image {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Main Content */
+main .container {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Video Section */
+#videolayout {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.YouTubeVideo {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll issues */
+}
+
+/* Make sure main content fills available space */
+main {
+    min-height: calc(10vh - 10px); /* Adjust based on your header/footer size */
+    padding-bottom: 70px; /* Prevent content from being hidden behind footer */
+}
+
+/* Fix footer to be visible but not block content */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Ensure container can expand properly */
+.container {
+    min-height: calc(0vh - 0px); /* Adjust based on header/footer */
+}
+
+/* Import Google Fonts for better typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* 🌍 Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 📌 Header Styles */
+header {
+    background: linear-gradient(to right, #004d99, #71AFF2);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #0056b3;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* 🔍 Navbar */
+.navbar {
+    background-color: #0056b3 !important;
+    padding: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+    text-decoration: underline;
+}
+
+/* 🎨 Main Content Styling */
+main .container {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📜 About Me Section */
+h3 {
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* 🔵 Side Columns */
+.col-md-9 {
+    background-color: #e3f2fd; /* Light Blue */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-md-3 {
+    background-color: #ffeb99; /* Light Yellow */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* 📌 Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* 🎥 Video Section */
+.YouTubeVideo {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* 📂 Course Information Section */
+h2 {
+    color: #004d99;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* 🔥 Buttons and Links */
+.btn-primary {
+    background-color: #004d99;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
